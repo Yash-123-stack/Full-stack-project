@@ -1,0 +1,68 @@
+.waitlist-container {
+    background-color: #f5ecd4; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 300px;
+}
+
+.table-container {
+    width: 65%;
+    margin-top: 80px;
+    height: 100%;
+    margin-left: 30px;
+    align-items: center;
+    background-color: #f5ecd4; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    background-color: #e74c3c; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    width: 48.5%;
+    border-collapse: collapse;
+    align-items: center;
+    align-content: center;
+    margin-left: 300px;
+}
+.main-header-waitlist{
+    background-color: #f5ecd4; 
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    align-items: center;
+    align-content: center;
+    margin-left: 300px;
+    background-color: #f5ecd4; 
+    th, td {
+        border: 1px solid black; 
+        padding: 15.5px; 
+        text-align: center; 
+    }
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5ecd4; 
+}

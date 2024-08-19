@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #fffcf0;
+}
+
+.registration-container {
+    background-color: #f5ecd4;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+
+.registration-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f5ecd4; 
+    padding: 20px;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.offer-message {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #228B22;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.input-field::placeholder {
+    color: #000;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: #f5ecd4;
+    padding: 0 5px;
+    color: #666;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: 0;
+    left: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
